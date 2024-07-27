@@ -5,7 +5,7 @@ import { PrimeiroComponent } from './primeiro.component';
 describe('PrimeiroComponent', () => {
   let component: PrimeiroComponent;
   let fixture: ComponentFixture<PrimeiroComponent>;
-
+  
   beforeEach(async () => {
     await TestBed.configureTestingModule({
       imports: [PrimeiroComponent]
@@ -21,3 +21,4 @@ describe('PrimeiroComponent', () => {
     expect(component).toBeTruthy();
   });
 });
+
