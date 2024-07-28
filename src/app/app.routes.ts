@@ -1,6 +1,6 @@
 import { Routes } from '@angular/router';
 import { PrimeiroComponent } from './primeiro/primeiro.component';
-import { SegundoComponent } from './segundo/segundo.component';
+import {PortfolioComponent} from "./portfolio/portfolio.component";
 
 
 
@@ -10,7 +10,7 @@ export const routes: Routes = [
         component: PrimeiroComponent
     },
     {
-        path: 'segundo',
-        component: SegundoComponent
+        path: 'portfolio',
+        component: PortfolioComponent
     },
 ];
