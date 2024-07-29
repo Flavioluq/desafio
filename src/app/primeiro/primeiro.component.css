@@ -5,7 +5,6 @@ body {
 }
 
 .back-box {
-  display: flex;
   width: 750px;
   height: 350px;
   position: absolute;
@@ -19,14 +18,27 @@ body {
 
 .Close-Button {
   display: flex;
+  position: relative;
+  left: 95%;
+  top: 10px;
+  background-color: #1A1832;
+  border-color: transparent;
+  color: white;
+}
 
+.Close-Button:hover {
+  background-color: red;
+}
+
+.Close-Button:active {
+  transform: scale(0.95);
 }
 
 .First {
-  align-items: center;
-  margin-left: 40%;
+  display: flex;
+  justify-content: center;
   position: relative;
-  top: -20px;
+  top: 50px;
   font-family: "Askan Regular", sans-serif;
   font-size: 20px;
   color: #FFFEFF;
@@ -36,10 +48,10 @@ body {
   font-size: 20px;
   left: 10%;
   position: relative;
-  margin-left: 30%;
+  margin-left: 25%;
   color: #FFFEFF;
   font-family: "Askan Regular", serif;
-  top: -20px;
+  top: 50px;
 }
 
 @font-face {
@@ -48,16 +60,18 @@ body {
 }
 
 .box-button{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  gap: 10px;
+  top: 70px;
 }
 
 .button {
   align-items: center;
   color: #B4B8CD;
-  font-size: 10px;
+  font-size: 150%;
   transition: transform 0.3s ease;
   cursor: pointer;
   border: 3px solid #272D45;
@@ -69,6 +83,11 @@ body {
   padding: 15px 25px;
   display: flex;
   justify-content: center;
+}
+
+.back-box-info {
+  display: flex;
+  flex-direction: column;
 }
 
 .button:active {
