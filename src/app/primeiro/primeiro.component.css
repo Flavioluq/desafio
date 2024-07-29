@@ -5,36 +5,41 @@ body {
 }
 
 .back-box {
-    display: flex;
-    width: 750px;
-    height: 350px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    margin-top: -200px;
-    margin-left: -400px;
-    border-radius: 10px;
-    background-color: #1A1832;
+  display: flex;
+  width: 750px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -400px;
+  border-radius: 10px;
+  background-color: #1A1832;
 }
 
-.um {
-    align-items: center;
-    margin-left: 40%;
-    position: relative;
-    top: -20px;
-    font-family: "Askan Regular", sans-serif;
-    font-size: 20px;
-    color: #FFFEFF;
+.Close-Button {
+  display: flex;
+
 }
 
-.dois {
-    font-size: 20px;
-    left: 10%;
-    position: relative;
-    margin-left: 30%;
-    color: #FFFEFF;
-    font-family: "Askan Regular";
-    top: -20px;
+.First {
+  align-items: center;
+  margin-left: 40%;
+  position: relative;
+  top: -20px;
+  font-family: "Askan Regular", sans-serif;
+  font-size: 20px;
+  color: #FFFEFF;
+}
+
+.Second {
+  font-size: 20px;
+  left: 10%;
+  position: relative;
+  margin-left: 30%;
+  color: #FFFEFF;
+  font-family: "Askan Regular", serif;
+  top: -20px;
 }
 
 @font-face {
@@ -50,28 +55,22 @@ body {
 }
 
 .button {
-    align-items: center;
-    color: #B4B8CD;
-    font-size: 10px;
-    transition: transform 0.3s ease;
-    cursor: pointer;
-    border: 3px solid #272D45;
-    border-color: #272D45;
-    border-radius: 10px;
-    font-family: "Aksan Regular";
-    font-size: 30px;
-    width: 60px;
-    height: 55px;
-    background-color: #1A2036;
-    padding: 15px 25px;
-    display: flex;
-    justify-content: center;
+  align-items: center;
+  color: #B4B8CD;
+  font-size: 10px;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 3px solid #272D45;
+  border-radius: 10px;
+  font-family: "Aksan Regular", serif;
+  width: 60px;
+  height: 55px;
+  background-color: #1A2036;
+  padding: 15px 25px;
+  display: flex;
+  justify-content: center;
 }
 
 .button:active {
     transform: scale(0.95);
-}
-
-.span {
-    size: 411.100x20;
 }
