@@ -106,7 +106,7 @@ body {
   display: flex;
   font-size: 70%;
   color: white;
-  top: 200%;
+  top: 210%;
   position: relative;
   right: 110%;
 }
@@ -115,4 +115,15 @@ body {
   display: flex;
 }
 
+.Likely {
+  display: flex;
+}
 
+.Likely-Validation {
+  display: flex;
+  font-size: 70%;
+  color: white;
+  top: 210%;
+  position: relative;
+  left: 540%;
+}
