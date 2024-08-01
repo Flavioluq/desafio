@@ -85,6 +85,10 @@ body {
   justify-content: center;
 }
 
+.button:hover {
+  border-color: white;
+}
+
 .back-box-info {
   display: flex;
   flex-direction: column;
@@ -93,3 +97,22 @@ body {
 .button:active {
     transform: scale(0.95);
 }
+
+.Results {
+  display: flex;
+}
+
+.Not-Likely {
+  display: flex;
+  font-size: 70%;
+  color: white;
+  top: 200%;
+  position: relative;
+  right: 110%;
+}
+
+.No-Likely {
+  display: flex;
+}
+
+
